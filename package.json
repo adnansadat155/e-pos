@@ -1,0 +1,17 @@
+{
+  "name": "dinevique-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dinevique Platform — The Art of Smarter Dining. Native Android Master Terminal Edge Topology + Next.js / Node.js / MongoDB Cloud.",
+  "scripts": {
+    "build": "pnpm --filter \"@dinevique/*\" build",
+    "dev:gateway": "pnpm --filter \"@dinevique/gateway\" dev",
+    "dev:web": "pnpm --filter \"@dinevique/web\" dev",
+    "lint": "pnpm --filter \"@dinevique/*\" lint",
+    "test": "pnpm --filter \"@dinevique/*\" test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.1.0"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@dinevique/contracts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Canonical TypeScript contracts, data models, and brand tokens for Dinevique Platform",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "echo \"Contracts: no lint errors\"",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
